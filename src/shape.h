@@ -15,7 +15,7 @@ class Shape
 public:
     virtual int getArea()=0;    // pure virtual function providing interface framework.
 
-    void setWidth(int);
+    void setWidth(int); 
     void setHeight(int);
     Dimensions dimension;
 
